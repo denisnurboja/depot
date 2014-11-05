@@ -39,12 +39,20 @@
 
 #columns {
   background: #141;
+  position:relative;
+    #vrijeme {
+        color:white;
+        font-weight:bold;
+        position:absolute;
+        bottom: 5px;
+        }
 
   #main {
     margin-left: 17em;
     padding: 1em;
     background: white;
   }
+  
 
   #side {
     float: left;
