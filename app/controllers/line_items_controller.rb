@@ -40,6 +40,7 @@ class LineItemsController < ApplicationController
           status: :unprocessable_entity }
       end
     end
+    session[:counter] = nil
   end
 
   # PATCH/PUT /line_items/1
