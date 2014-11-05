@@ -41,12 +41,12 @@
       margin-left: 100px;
       margin-top: 0.5em; 
       margin-bottom: 0.8em; 
-    }
 
-    .price {
-      color: #44a;
-      font-weight: bold;
-      margin-right: 3em;
+      /* START_HIGHLIGHT */
+      form, div {
+        display: inline;
+      }
+      /* END_HIGHLIGHT */
     }
   }
 }
